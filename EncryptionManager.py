@@ -62,7 +62,7 @@ class EncryptionManager:
             print(f"Error encrypting {file}: {e}")
 
 
-# Example usage
+# Example usages
 if __name__ == "__main__":
     manager = EncryptionManager(encryption_pass="MySecretKey123", decryption_pass="MySecretKey123")
     file_to_encrypt = "example.txt"
