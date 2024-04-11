@@ -53,7 +53,7 @@ class EncryptionManager:
                 ciphertext = cipher.update(padded_plaintext) + cipher.finalize()  # Encrypt plaintext
                 print("Ciphertext:", ciphertext)  # Print ciphertext
 
-            # Write encrypted data to the same file
+            # Write encrypted data to the same files
             with open(file, 'wb') as f:
                 f.write(ciphertext)
 
